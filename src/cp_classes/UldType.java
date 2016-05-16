@@ -34,6 +34,11 @@ public class UldType {
     public void setMaxWeight(int maxWeight) {
         this.maxWeight = maxWeight;
     }
+
+    @Override
+    public String toString() {
+        return "UldType{" + "name=" + name + ", maxWeight=" + maxWeight + '}';
+    }
     
     
     
