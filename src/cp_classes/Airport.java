@@ -4,8 +4,6 @@
  */
 package cp_classes;
 
-import java.util.ArrayList;
-
 /**
  *
  * @author Michał
