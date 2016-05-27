@@ -15,10 +15,18 @@ public class Airplain {
     
     
     private String sign;
-    private int uldNumber;
-    private int maxUldWeight;
-    private ArrayList<UldPosition> uldPosition;
+    //Zamień na jeden obiekt;
+    private ArrayList<String> positionsName;
+    private ArrayList<Integer> positionMaxWeight;
+    private ArrayList<Double> positionIndex;
     
+    private Integer maxTotalTraficWeight;
+    private Integer aveSpeed;
+    private Double dryOperationIndex;
+    private Double minOperationIndex;
+    private Double maxOperationIndex;
+    
+    private Double singleTimeCost;
     
     
 }
