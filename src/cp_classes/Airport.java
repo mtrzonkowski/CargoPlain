@@ -8,7 +8,8 @@ package cp_classes;
  *
  * @author Michał
  */
-public class Airport {
+public class Airport extends MyObject{
+    
     
     private String fullName;    //pełna nazwa lotniska;
     private float latitude;     //szerokość geograficzna lotniska

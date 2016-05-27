@@ -11,18 +11,29 @@ package cp_classes;
  */
 public class Position {
     
+    private Airplain airplain;
+    
     private String positionName;
     private Integer maxPositionWeight;
     private Double positionIndex;
     private boolean doorPosition;
 
-    public Position(String positionName, Integer maxPositionWeight,Double positionIndex, boolean doorPosition) {
+    public Position(Airplain airplain,String positionName, Integer maxPositionWeight,Double positionIndex, boolean doorPosition) {
+        this.airplain=airplain;
         this.positionName = positionName;
         this.maxPositionWeight = maxPositionWeight;
         this.positionIndex=positionIndex;
         this.doorPosition = doorPosition;
     }
 
+    public Airplain getAirplain(){
+        return this.airplain;
+    }
+    
+    public void setAirplain(Airplain airplain){
+        this.airplain=airplain;
+    }
+    
     public String getPositionName() {
         return positionName;
     }

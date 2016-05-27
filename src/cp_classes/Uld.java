@@ -9,16 +9,21 @@ package cp_classes;
  *
  * @author Michał
  */
-public class Uld {
+public class Uld extends MyObject{
     
     
     private String name;
-    private int weight;
     private Airport depAirport;
     private Airport destAirpost;
+    private int weight;
+    private int value;
 
-    public Uld(String name) {
+    public Uld(String name, Airport depAirport, Airport destAirpost, int weight, int value) {
         this.name = name;
+        this.depAirport = depAirport;
+        this.destAirpost = destAirpost;
+        this.weight = weight;
+        this.value = value;
     }
 
     public String getName() {

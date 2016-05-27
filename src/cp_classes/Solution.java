@@ -13,7 +13,7 @@ import java.util.ArrayList;
  */
 public class Solution {
     
-    private ArrayList<TrafficLoad> solution;
+    private ArrayList<Load> solution;
     
     
     
